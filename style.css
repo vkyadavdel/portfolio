@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgba(20,21,21,255)
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#logo{
+    margin: 30px;
+    margin-right: 650px;
+    /* border: 2px solid red; */
+
+}
+#logo img{
+    height: 90px;
+    width: 150px; 
+    margin: 5px 5px;
+
+}
+#navbar ul{
+    display: flex;
+    
+}
+#navbar ul{
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navbar::before{
+    content: "";
+    background-color: rgba(20,21,21,255);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+#container{
+    margin-left: 10%;
+    margin-top: 15%;
+}
+#container h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+p{
+    color: white;
+}
+/* #container a{
+    
+
+} */
+.btn{
+    margin: 30px 0px;
+    padding: 10px 20px;
+    background:grey;
+    border-radius: 20px;
+}
+.btn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline block;
+   
+}
+span{
+    color: orange;
+
+}
+
+.images{
+     width: 50%;
+     height: 80%;
+     bottom: 0px;
+     position: absolute;
+     right: 100px;
+
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 30%;
+    bottom: 0px;
+
+}
+.images:hover .shape{
+    top: 40px;
+    left: 5px;
+}
+.images:hover .vk{
+    left: 20px;
+}

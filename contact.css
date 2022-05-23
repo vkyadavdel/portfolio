@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-form{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgb(245, 199, 115,0.8)), url(images/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    width: 90%;
+    max-width: 600px;
+
+}
+
+.contact-input{
+    margin-bottom: 20px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    background: transparent;
+    font-size: 12px;
+
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 1s;
+
+}
+.btn-contact {
+    padding: 10px 2px;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+
+}
+.btn-contact a{
+    color: #fff;
+    text-decoration: none;
+
+
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -30px;
+    font-size: 12px;
+
+}
